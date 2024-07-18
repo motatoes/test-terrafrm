@@ -1,3 +1,5 @@
+resource "null_resource" "test" {}
+:x
 data "archive_file" "code" {
   type        = "zip"
   source_dir  = "${path.module}/code"
